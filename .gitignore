@@ -1,0 +1,37 @@
+# 忽略虚拟环境目录
+venv/
+venv2/
+# 忽略以 .pyc 结尾的编译文件
+*.pyc
+
+# 忽略以 .pyo 结尾的优化文件
+*.pyo
+
+# 忽略 __pycache__ 目录
+__pycache__/
+
+# 忽略日志文件
+*.log
+
+# 忽略本地配置文件
+config/local_settings.py
+
+# 忽略生成的文档
+docs/build/
+
+# 忽略.idea目录（PyCharm配置）
+.idea/
+
+# 忽略.vscode目录（Visual Studio Code配置）
+.vscode/
+.temp/
+.temp/img/
+.temp/*
+.git/
+temp/*.webp
+temp/img/
+human.txt
+# 忽略 Jupyter Notebook 的元数据文件
+.ipynb_checkpoints/
+._*
+.DS_Store
